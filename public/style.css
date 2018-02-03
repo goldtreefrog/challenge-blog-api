@@ -1,0 +1,66 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+button,
+input[type="text"],
+textarea {
+  padding: 5px;
+  margin-top: 10px;
+  border: solid 1px #333;
+}
+input[type="text"],
+textarea {
+  width: 80%;
+}
+textarea {
+  height: 3em;
+}
+.label-item {
+  display: inline-block;
+  width: 19%;
+  text-align: right;
+  vertical-align: top;
+  margin-top: 10px;
+  padding-top: 0.25em;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+#blog-item {
+  width: 250px;
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.blog {
+  list-style: none;
+  padding-left: 0;
+}
+
+.blog > li {
+  margin-bottom: 20px;
+  border: 1px solid grey;
+  padding: 20px;
+}
+
+.blog-item {
+  display: block;
+  color: grey;
+  font-style: italic;
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+
+.blog-item__checked {
+  text-decoration: line-through;
+}
